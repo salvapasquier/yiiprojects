@@ -1,0 +1,265 @@
+2012/07/08 20:47:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'demoyii'' in C:\xampp\htdocs\git\yiiprojects\Yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\xampp\htdocs\git\yiiprojects\Yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\xampp\htdocs\git\yiiprojects\Yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\git\yiiprojects\Yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\xampp\htdocs\git\yiiprojects\Yii\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\xampp\htdocs\git\yiiprojects\Yii\framework\gii\generators\model\ModelCode.php(54): CModule->__get('db')
+#5 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\xampp\htdocs\git\yiiprojects\Yii\framework\gii\CCodeGenerator.php(152): CFormModel->__construct()
+#7 C:\xampp\htdocs\git\yiiprojects\Yii\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php(276): CController->run('')
+#13 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php(135): CWebApplication->runController('gii/model')
+#14 C:\xampp\htdocs\git\yiiprojects\Yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\git\yiiprojects\demoyii\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/git/yiiprojects/demoyii/gii/model
+HTTP_REFERER=http://localhost/git/yiiprojects/demoyii/gii/default/index
+---
+2012/07/08 20:56:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "favicon.ico".' in C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CController.php(271): CController->missingAction('favicon.ico')
+#1 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php(276): CController->run('favicon.ico')
+#2 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/favicon.ic...')
+#3 C:\xampp\htdocs\git\yiiprojects\Yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\git\yiiprojects\demoyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/git/yiiprojects/demoyii/site/favicon.ico
+---
+2012/07/08 20:56:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "favicon.ico".' in C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CController.php(271): CController->missingAction('favicon.ico')
+#1 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php(276): CController->run('favicon.ico')
+#2 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/favicon.ic...')
+#3 C:\xampp\htdocs\git\yiiprojects\Yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\git\yiiprojects\demoyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/git/yiiprojects/demoyii/site/favicon.ico
+---
+2012/07/08 20:56:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "favicon.ico".' in C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CController.php(271): CController->missingAction('favicon.ico')
+#1 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php(276): CController->run('favicon.ico')
+#2 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/favicon.ic...')
+#3 C:\xampp\htdocs\git\yiiprojects\Yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\git\yiiprojects\demoyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/git/yiiprojects/demoyii/site/favicon.ico
+---
+2012/07/08 20:56:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "favicon.ico".' in C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CController.php(271): CController->missingAction('favicon.ico')
+#1 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php(276): CController->run('favicon.ico')
+#2 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/favicon.ic...')
+#3 C:\xampp\htdocs\git\yiiprojects\Yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\git\yiiprojects\demoyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/git/yiiprojects/demoyii/site/favicon.ico
+---
+2012/07/08 20:56:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "favicon.ico".' in C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CController.php(271): CController->missingAction('favicon.ico')
+#1 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php(276): CController->run('favicon.ico')
+#2 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/favicon.ic...')
+#3 C:\xampp\htdocs\git\yiiprojects\Yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\git\yiiprojects\demoyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/git/yiiprojects/demoyii/site/favicon.ico
+---
+2012/07/08 20:57:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "favicon.ico".' in C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CController.php(271): CController->missingAction('favicon.ico')
+#1 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php(276): CController->run('favicon.ico')
+#2 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/favicon.ic...')
+#3 C:\xampp\htdocs\git\yiiprojects\Yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\git\yiiprojects\demoyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/git/yiiprojects/demoyii/site/favicon.ico
+---
+2012/07/08 21:15:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "saludo"' in C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php(135): CWebApplication->runController('saludo')
+#1 C:\xampp\htdocs\git\yiiprojects\Yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\git\yiiprojects\demoyii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/yiiprojects/demoyii/saludo
+---
+2012/07/08 21:15:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "saludo/index"' in C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php(135): CWebApplication->runController('saludo/index')
+#1 C:\xampp\htdocs\git\yiiprojects\Yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\git\yiiprojects\demoyii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/yiiprojects/demoyii/saludo/index
+---
+2012/07/08 21:15:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "saludo/index"' in C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php(135): CWebApplication->runController('saludo/index')
+#1 C:\xampp\htdocs\git\yiiprojects\Yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\git\yiiprojects\demoyii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/yiiprojects/demoyii/saludo/index
+---
+2012/07/08 21:15:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "saludo/index"' in C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php(135): CWebApplication->runController('saludo/index')
+#1 C:\xampp\htdocs\git\yiiprojects\Yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\git\yiiprojects\demoyii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/yiiprojects/demoyii/saludo/index
+---
+2012/07/08 21:16:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "saludo/index"' in C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php(135): CWebApplication->runController('saludo/index')
+#1 C:\xampp\htdocs\git\yiiprojects\Yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\git\yiiprojects\demoyii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/yiiprojects/demoyii/saludo/index
+---
+2012/07/08 21:16:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "saludo/index"' in C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php(135): CWebApplication->runController('saludo/index')
+#1 C:\xampp\htdocs\git\yiiprojects\Yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\git\yiiprojects\demoyii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/yiiprojects/demoyii/saludo/index
+---
+2012/07/08 21:17:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "saludo/index"' in C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php(135): CWebApplication->runController('saludo/index')
+#1 C:\xampp\htdocs\git\yiiprojects\Yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\git\yiiprojects\demoyii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/yiiprojects/demoyii/saludo/index
+---
+2012/07/08 21:17:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "saludo/index"' in C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php(135): CWebApplication->runController('saludo/index')
+#1 C:\xampp\htdocs\git\yiiprojects\Yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\git\yiiprojects\demoyii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/yiiprojects/demoyii/saludo/index
+---
+2012/07/08 21:17:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "saludo/index"' in C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php(135): CWebApplication->runController('saludo/index')
+#1 C:\xampp\htdocs\git\yiiprojects\Yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\git\yiiprojects\demoyii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/git/yiiprojects/demoyii/saludo/index
+---
+2012/07/08 21:19:55 [error] [exception.CException] exception 'CException' with message 'Propiedad "SaludoController"."title" no se encuentra definida.' in C:\xampp\htdocs\git\yiiprojects\Yii\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\git\yiiprojects\demoyii\protected\views\saludo\index.php(1): CComponent->__set('title', 'Hola Mundo')
+#1 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#3 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#5 C:\xampp\htdocs\git\yiiprojects\demoyii\protected\controllers\SaludoController.php(7): CController->render('index', Array)
+#6 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\actions\CInlineAction.php(50): SaludoController->actionIndex()
+#7 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php(276): CController->run('index')
+#11 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php(135): CWebApplication->runController('saludo/index')
+#12 C:\xampp\htdocs\git\yiiprojects\Yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\git\yiiprojects\demoyii\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/git/yiiprojects/demoyii/saludo/index
+---
+2012/07/08 21:22:17 [error] [exception.CException] exception 'CException' with message 'Propiedad "SaludoController"."breadcrumb" no se encuentra definida.' in C:\xampp\htdocs\git\yiiprojects\Yii\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\git\yiiprojects\demoyii\protected\views\saludo\index.php(2): CComponent->__set('breadcrumb', Array)
+#1 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#3 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#5 C:\xampp\htdocs\git\yiiprojects\demoyii\protected\controllers\SaludoController.php(7): CController->render('index', Array)
+#6 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\actions\CInlineAction.php(50): SaludoController->actionIndex()
+#7 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php(276): CController->run('index')
+#11 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php(135): CWebApplication->runController('saludo/index')
+#12 C:\xampp\htdocs\git\yiiprojects\Yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\git\yiiprojects\demoyii\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/git/yiiprojects/demoyii/saludo/index
+---
+2012/07/08 21:22:17 [error] [exception.CException] exception 'CException' with message 'Propiedad "SaludoController"."breadcrumb" no se encuentra definida.' in C:\xampp\htdocs\git\yiiprojects\Yii\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\git\yiiprojects\demoyii\protected\views\saludo\index.php(2): CComponent->__set('breadcrumb', Array)
+#1 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#3 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#5 C:\xampp\htdocs\git\yiiprojects\demoyii\protected\controllers\SaludoController.php(7): CController->render('index', Array)
+#6 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\actions\CInlineAction.php(50): SaludoController->actionIndex()
+#7 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php(276): CController->run('index')
+#11 C:\xampp\htdocs\git\yiiprojects\Yii\framework\web\CWebApplication.php(135): CWebApplication->runController('saludo/index')
+#12 C:\xampp\htdocs\git\yiiprojects\Yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\git\yiiprojects\demoyii\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/git/yiiprojects/demoyii/saludo/index
+---
+2012/07/08 22:02:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "view" solicitada.' in C:\xampp\htdocs\git\yiiprojects\demoyii\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\git\yiiprojects\demoyii\framework\web\CController.php(271): CController->missingAction('view')
+#1 C:\xampp\htdocs\git\yiiprojects\demoyii\framework\web\CWebApplication.php(276): CController->run('view')
+#2 C:\xampp\htdocs\git\yiiprojects\demoyii\framework\web\CWebApplication.php(135): CWebApplication->runController('tareas/view')
+#3 C:\xampp\htdocs\git\yiiprojects\demoyii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\git\yiiprojects\demoyii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/git/yiiprojects/demoyii/tareas/1
+HTTP_REFERER=http://localhost/git/yiiprojects/demoyii/tareas
+---
+2012/07/08 22:28:31 [error] [php] Undefined variable: id (C:\xampp\htdocs\git\yiiprojects\demoyii\protected\controllers\TareasController.php:12)
+Stack trace:
+#0 C:\xampp\htdocs\git\yiiprojects\demoyii\framework\web\CController.php(287): TareasController->runAction()
+#1 C:\xampp\htdocs\git\yiiprojects\demoyii\framework\web\CController.php(266): TareasController->runActionWithFilters()
+#2 C:\xampp\htdocs\git\yiiprojects\demoyii\framework\web\CWebApplication.php(276): TareasController->run()
+#3 C:\xampp\htdocs\git\yiiprojects\demoyii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\xampp\htdocs\git\yiiprojects\demoyii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\git\yiiprojects\demoyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/git/yiiprojects/demoyii/tareas/1
+in C:\xampp\htdocs\git\yiiprojects\demoyii\protected\controllers\TareasController.php (12)
+in C:\xampp\htdocs\git\yiiprojects\demoyii\index.php (13)
+2012/07/08 22:29:08 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\git\yiiprojects\demoyii\protected\controllers\TareasController.php:12)
+Stack trace:
+#0 C:\xampp\htdocs\git\yiiprojects\demoyii\framework\web\CController.php(287): TareasController->runAction()
+#1 C:\xampp\htdocs\git\yiiprojects\demoyii\framework\web\CController.php(266): TareasController->runActionWithFilters()
+#2 C:\xampp\htdocs\git\yiiprojects\demoyii\framework\web\CWebApplication.php(276): TareasController->run()
+#3 C:\xampp\htdocs\git\yiiprojects\demoyii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\xampp\htdocs\git\yiiprojects\demoyii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\git\yiiprojects\demoyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/git/yiiprojects/demoyii/tareas/1
+in C:\xampp\htdocs\git\yiiprojects\demoyii\protected\controllers\TareasController.php (12)
+in C:\xampp\htdocs\git\yiiprojects\demoyii\index.php (13)
+2012/07/09 00:35:06 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'datos2.tareas' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `Tareas`.
+in C:\xampp\htdocs\git\yiiprojects\demoyii\protected\models\Tareas.php (6)
+in C:\xampp\htdocs\git\yiiprojects\demoyii\protected\controllers\TareasController.php (6)
+in C:\xampp\htdocs\git\yiiprojects\demoyii\index.php (13)
+2012/07/09 00:35:06 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "Tareas" definida en la clase active record "Tareas" no se ha podido encontrar en la base de datos.' in C:\xampp\htdocs\git\yiiprojects\demoyii\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 C:\xampp\htdocs\git\yiiprojects\demoyii\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Tareas))
+#1 C:\xampp\htdocs\git\yiiprojects\demoyii\protected\models\Tareas.php(6): CActiveRecord::model('Tareas')
+#2 C:\xampp\htdocs\git\yiiprojects\demoyii\protected\controllers\TareasController.php(6): Tareas::model()
+#3 C:\xampp\htdocs\git\yiiprojects\demoyii\framework\web\actions\CInlineAction.php(50): TareasController->actionIndex()
+#4 C:\xampp\htdocs\git\yiiprojects\demoyii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\git\yiiprojects\demoyii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\git\yiiprojects\demoyii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\git\yiiprojects\demoyii\framework\web\CWebApplication.php(276): CController->run('')
+#8 C:\xampp\htdocs\git\yiiprojects\demoyii\framework\web\CWebApplication.php(135): CWebApplication->runController('tareas')
+#9 C:\xampp\htdocs\git\yiiprojects\demoyii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\git\yiiprojects\demoyii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/git/yiiprojects/demoyii/tareas
+HTTP_REFERER=http://localhost/git/yiiprojects/demoyii/saludo
+---
